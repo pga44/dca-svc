@@ -14,7 +14,7 @@ public class Generador {
  
 	
 	public String getPinNumber() {
-		return getPassword(NUMEROS, 4);
+		return getPassword(NUMEROS, 3);
 	}
  
 	public String getPassword(int length) {
@@ -43,7 +43,7 @@ public class Generador {
 				pass = g.getPinNumber();
 			}
 			else if(cadena.equals("CONTRASEÑA")){
-				System.out.println("Introduce el tamaño que quieres que tenga la CONTRASEÑA:");
+				System.out.println("Introduce el tamaño que quieres que tenga la CONTRASEA:");
 				String tamaño = br.readLine();
 				pass = g.getPassword(Integer.parseInt(tamaño));
 			}else{
