@@ -10,7 +10,7 @@ public class Generador {
  
 	public static String MINUSCULAS = "abcdefghijklmnopqrstuvwxyz";
  
-	public static String ESPECIALES = "ñÑ";
+	public static String ESPECIALES = "ñÑ*";
  
 	
 	public String getPinNumber() {
